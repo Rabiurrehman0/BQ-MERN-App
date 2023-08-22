@@ -1,0 +1,19 @@
+.bg-theme {
+    background-color: #ffead0 !important;
+}
+
+.bg-theme .active {
+    background-color: #dd3f2f !important;
+}
+
+.btn-theme {
+    background-color: #dd3f2f !important;
+}
+
+.text-theme {
+    color: #ffead0 !important;
+}
+
+.text-theme-dark {
+    color: #dd3f2f !important;
+}
