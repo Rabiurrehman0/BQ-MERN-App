@@ -65,9 +65,7 @@ Product images are securely stored using Firebase Storage. This ensures efficien
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-#### add(num1, num2)
 
-Takes two numbers and returns the sum.
 
 
 ### Items
@@ -87,9 +85,7 @@ Takes two numbers and returns the sum.
 | :-------- | :------- | :-------------------------------- |
 | `email`      | `string` | **Required**. user email |
 
-#### add(num1, num2)
 
-Takes two numbers and returns the sum.
 
 ### Items
 #### Get all items
@@ -112,6 +108,34 @@ Takes two numbers and returns the sum.
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-#### add(num1, num2)
+API's:
+Users
+http://localhost:1234/api/signup
+http://localhost:1234/api/login
+http://localhost:1234/api/getallusers
+http://localhost:1234/api/update-user
+http://localhost:1234/api/delete-user
 
-Takes two numbers and returns the sum.
+Products:
+http://localhost:1234/api/get-all-products
+http://localhost:1234/api/get-product-by-id/:_id
+http://localhost:1234/api/get-product-by-category/:category
+http://localhost:1234/api/get-product-by-brand/:brand
+http://localhost:1234/api/add-products
+http://localhost:1234/api/delete-products
+http://localhost:1234/api/update-products
+
+Category:
+http://localhost:1234/api/add-category
+http://localhost:1234/api/get-all-categories
+http://localhost:1234/api/categorybyname/:name
+http://localhost:1234/api/delete-category
+http://localhost:1234/api/update-category
+
+Brands:
+http://localhost:1234/api/add-brand
+http://localhost:1234/api/brandbyid/:_id
+http://localhost:1234/api/brandbyname/:BrandName
+http://localhost:1234/api/get-all-brands
+http://localhost:1234/api/update-brand
+http://localhost:1234/api/delete-brand
